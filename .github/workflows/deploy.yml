@@ -29,5 +29,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "liudonghua123-hello-vite"
-          entrypoint: "main.ts" # 📝 Update the entrypoint
-          root: "."
+          entrypoint: https://deno.land/std/http/file_server.ts
+          root: dist
